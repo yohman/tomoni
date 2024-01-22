@@ -20,7 +20,7 @@
 		<!-- <img src="http://www.shutoku.ac.jp/img/common/header__logo@2x.png" width=> -->
 		<!-- <img src="https://www.metro.ed.jp/adachishinden-h/img_sub/kosyo.png" width=>
 		<img src="images/me.png" width=60>  -->
-        <h1 style="font-size: 30px; color: white;">能登半島地震：二次避難所</h1>
+        <h1 style="font-size: 30px; color: white;">Tomoni: Places to visit</h1>
 	</div>
 	<div class="sidebar"></div>
 	<div class="content">
@@ -97,24 +97,13 @@
                     lat = Number(item[5])
                     lon = Number(item[6])
 
-
-                    if (item[2] == 1) {
-                        places.addLayer(L.circleMarker([lat, lon], {
-                            color: 'white',
-                            fillColor: 'green',
-                            fillOpacity: 1,
-                            radius: 10,
-                            weight: 2
-                        }).bindPopup(item[3]));
-                    } else {
-                        places.addLayer(L.circleMarker([lat, lon], {
-                            color: 'white',
-                            fillColor: 'red',
-                            fillOpacity: 1,
-                            radius: 10,
-                            weight: 2
-                        }).bindPopup(item[3]));
-                    }
+					places.addLayer(L.circleMarker([lat, lon], {
+						color: 'white',
+						fillColor: 'red',
+						fillOpacity: 1,
+						radius: 10,
+						weight: 2
+					}).bindPopup(item[3]));
 
 
                     // image url
@@ -134,13 +123,10 @@
                     urlhtml = '<a href="'+url+'" width=100% alt="website">'+url+'</a>'
 
                     console.log(photourl)
-                    if(item[2] == 1){
-                        availablehtml='🟢'
-                    }
-                    else{
-                        availablehtml='🔴'
-                    }
-                    // add marker to sidebar
+
+					availablehtml='🔴'
+
+					// add marker to sidebar
                     $('.sidebar').append('<div class="sidebar-item" onclick="goto(' + item[0] + ')"><h3>' + availablehtml+item[2] + ' (' + item[3] + ')</h3>'+urlhtml+'<p>' + item[4] + '</p>'+photohtml+'</div>')
                                         
 					// places.addLayer(L.marker(Number(item[6]),Number(item[7]))
