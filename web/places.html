@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tomoni: Places to visit</title>
+	<meta charset="utf-8" />
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin="anonymous"></script>
+
+	<!-- jquery -->
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+	<!-- stylesheets -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="anonymous" />
+	<link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+	<div class="header">
+		<!-- <img src="http://www.shutoku.ac.jp/img/common/header__logo@2x.png" width=> -->
+		<!-- <img src="https://www.metro.ed.jp/adachishinden-h/img_sub/kosyo.png" width=>
+		<img src="images/me.png" width=60>  -->
+        <h1 style="font-size: 30px; color: white;">能登半島地震：二次避難所</h1>
+	</div>
+	<div class="sidebar"></div>
+	<div class="content">
+
+		<div id="map"></div>
+
+		<script>
+
+			// Define the URL of the REST API endpoint
+			// const apiUrl = 'https://sheets.googleapis.com/v4/spreadsheets/1EgkoOgSFECbOX44axyYmBphb05wfjZd7JlLTNFrFZ4Q/values/Form Responses 1?key=AIzaSyAUi4KazffmDZV_dQUnMUKA1jJt4i0mqlU';
+
+
+			const sheetid = '1MIl9xwnGWg8aWndHjmJrr944CQU0MelElqwc9pf-55o'
+			const tabid = 'places'
+			const apiUrl = 'https://sheets.googleapis.com/v4/spreadsheets/'+sheetid+'/values/'+tabid+'?key=AIzaSyAUi4KazffmDZV_dQUnMUKA1jJt4i0mqlU';
+
+			let sheet = null;
+
+			// Use the fetch function to make a GET request
+			fetch(apiUrl)
+			.then(response => {
+				// Check if the response status is OK (200)
+				if (!response.ok) {
+				throw new Error('Network response was not ok');
+				}
+				// Parse the response as JSON
+				return response.json();
+			})
+			.then(data => {
+				// Handle the JSON data here
+				sheet = data.values
+				console.log(sheet)
+				sheet2 = []
+				id = 0
+				sheet.forEach(function(element){
+					if(id>0)
+					{
+						element.unshift(id)
+						sheet2.push(element)
+					}
+					id++
+				})
+				// console.log(sheet2)
+				init()
+				console.log(sheet);
+
+			})
+			.catch(error => {
+				// Handle errors
+				console.error('Fetch error:', error);
+			});
+
+			// start the map
+			const map = L.map('map').setView([0,0], 2);
+
+			function init() 
+			{	
+				// add a satellite basemap from mapbox
+				let satellitecolor = L.tileLayer('https://api.mapbox.com/styles/v1/yohman/ckrh25hug05w018ndot6lycob/tiles/512/{z}/{x}/{y}@2x?access_token=pk.eyJ1IjoieW9obWFuIiwiYSI6IkxuRThfNFkifQ.u2xRJMiChx914U7mOZMiZw', 
+				{
+					attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery © <a href="https://www.mapbox.com/">Mapbox/yohman</a>',
+					maxZoom: 18,
+					tileSize: 512,
+					zoomOffset: -1,
+					accessToken: 'pk.eyJ1IjoieW9obWFuIiwiYSI6IkxuRThfNFkifQ.u2xRJMiChx914U7mOZMiZw'
+				}).addTo(map)
+				
+				// create layer group
+				var places = L.featureGroup()
+				
+				// loop through data
+				sheet2.forEach(function(item,index){
+                    // console.log(Number(item[6]),Number(item[7]))
+                    lat = Number(item[5])
+                    lon = Number(item[6])
+
+
+                    if (item[2] == 1) {
+                        places.addLayer(L.circleMarker([lat, lon], {
+                            color: 'white',
+                            fillColor: 'green',
+                            fillOpacity: 1,
+                            radius: 10,
+                            weight: 2
+                        }).bindPopup(item[3]));
+                    } else {
+                        places.addLayer(L.circleMarker([lat, lon], {
+                            color: 'white',
+                            fillColor: 'red',
+                            fillOpacity: 1,
+                            radius: 10,
+                            weight: 2
+                        }).bindPopup(item[3]));
+                    }
+
+
+                    // image url
+                    photourl = item[8]
+                    photohtml = '<img src="'+photourl+'" width=100% alt="Photo">'
+
+					if (item[9]) {
+						photohtml += '<img src="' + item[9] + '" width=100% alt="Additional Photo">';
+					}
+					if (item[10]) {
+						photohtml += '<img src="' + item[10] + '" width=100% alt="Additional Photo">';
+					}
+
+
+                    // image url
+                    url = item[11]
+                    urlhtml = '<a href="'+url+'" width=100% alt="website">'+url+'</a>'
+
+                    console.log(photourl)
+                    if(item[2] == 1){
+                        availablehtml='🟢'
+                    }
+                    else{
+                        availablehtml='🔴'
+                    }
+                    // add marker to sidebar
+                    $('.sidebar').append('<div class="sidebar-item" onclick="goto(' + item[0] + ')"><h3>' + availablehtml+item[2] + ' (' + item[3] + ')</h3>'+urlhtml+'<p>' + item[4] + '</p>'+photohtml+'</div>')
+                                        
+					// places.addLayer(L.marker(Number(item[6]),Number(item[7]))
+					// 	.bindPopup(item[1]))
+	
+					// // add marker to sidebar
+					// $('.sidebar').append('<div class="sidebar-item" onclick="goto('+item[1]+')"><h3>'+item[2]+' ('+item[3]+')</h3><p>'+item[10]+'</div>')
+				})
+				
+				// add layer to map
+				places.addTo(map)
+				
+				// map.fitBounds()
+				map.fitBounds(places.getBounds())
+			
+			}
+
+			function goto(id){
+					console.log(id)
+					lat = Number(sheet2.find(sublist => sublist[0] === id)[5])
+					lon = Number(sheet2.find(sublist => sublist[0] === id)[6])
+					console.log(lat,lon)
+					// map.flyTo([data[id].lat,data[id].lon],10)
+					map.flyTo([lat,lon],18)
+				}
+
+		</script>	
+
+	</div>
+
+</body>
+</html>
