@@ -3,6 +3,7 @@
 # 
 https://yohman.github.io/tomoni/site/
 
+![Alt text](<docs/images/tomoni poster.jpg>)
 “Tomoni” introduces students from various universities to come together in Odaka, Fukushima to conduct spatial research through deep ethnographic exploration with local community members. During this four day expedition, students are tasked to become humanists by exploring, participating and listening, and in doing so, to construct a “thick map” that incorporates data visualizations, documentary film, photographic documents, risk maps, journals, etc, all produced through community narratives. On the final day, students will invite the community members they engaged with (and beyond) to participate in a forum where they can present their “thick maps” and have a dialogue with participants.
 
 #
