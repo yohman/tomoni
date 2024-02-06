@@ -1,0 +1,17 @@
+site_name: tomoni
+theme:
+  name: material
+  use_directory_urls: true
+  scheme: slate
+  palette:
+    primary: "black"
+    accent: "amber"
+
+  font:
+    text: "Roboto"
+    code: "Roboto Mono"
+  language: "en"
+  features:
+    - navigation.footer    
+extra:
+  generator: false
