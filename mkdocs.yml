@@ -15,3 +15,10 @@ theme:
     - navigation.footer    
 extra:
   generator: false
+extra_css:
+  - css/style.css
+extra_javascript:
+  - js/carousel.js
+markdown_extensions: 
+  - attr_list
+  - md_in_html

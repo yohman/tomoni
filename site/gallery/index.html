@@ -9,7 +9,7 @@
       
       
       
-        <link rel="prev" href="../about/">
+        <link rel="prev" href="../index_OLD/">
       
       
         <link rel="next" href="akira/">
@@ -45,6 +45,8 @@
         <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
       
     
+    
+      <link rel="stylesheet" href="../css/style.css">
     
     <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -231,6 +233,26 @@
       
   
   
+  
+  
+    <li class="md-nav__item">
+      <a href="../index_OLD/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    index OLD
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
     
   
   
@@ -245,10 +267,10 @@
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
         
           
-          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
             
   
   <span class="md-ellipsis">
@@ -259,8 +281,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
-          <label class="md-nav__title" for="__nav_3">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4">
             <span class="md-nav__icon md-icon"></span>
             Gallery
           </label>
@@ -491,6 +513,155 @@
   
 
     
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Projects
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Projects
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../projects/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Projects
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../projects/analog/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    「アナログ版のマッピング作成ーポストイットで想いを伝えよう！ー」
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../projects/miryoku/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    小高の人が持つ魅力
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../projects/omoide_map/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    小高の思い出
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../projects/tsunagari/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    つながり
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
   </ul>
 </nav>
                   </div>
@@ -522,127 +693,63 @@
                   
 
 
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Image Gallery</title>
-    <style>
-        .gallery {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-            grid-gap: 20px;
-        }
-        .gallery-item {
-            text-align: center;
-        }
-        .gallery-item img {
-            width: 200px;
-            height: 200px;
-            object-fit: cover;
-            border-radius: 5px;
-        }
-        .caption {
-            margin-top: 5px;
-            font-size: 14px;
-        }
-        /* Additional style for banner */
-        .banner {
-            width: 100%;
-            height: 300px; /* Adjust height as needed */
-            overflow: hidden;
-            position: relative;
-        }
-        .banner img {
-            width: 100%;
-            height: auto;
-            position: absolute;
-            top: 0;
-            left: 0;
-            opacity: 0;
-            transition: opacity 0.5s ease-in-out;
-        }
-        .banner img.active {
-            opacity: 1;
-        }
-    </style>
-</head>
-
-<body>
 <h1>Member Gallery</h1>
-    <div class="gallery">
-        <div class="gallery-item">
-            <a href="akira">
-                <img src="../images/akira bw.jpg" alt="akira">
-            </a>
-            <div class="caption">Akira</div>
-        </div>
-        <div class="gallery-item">
-            <a href="naoki">
-                <img src="../images/naoki bw.jpg" alt="naoki">
-            </a>
-            <div class="caption">Naoki</div>
-        </div>
-        <div class="gallery-item">
-            <a href="mao">
-                <img src="../images/mao bw.jpg" alt="mao">
-            </a>
-            <div class="caption">Mao</div>
-        </div>
-        <div class="gallery-item">
-            <a href="yuki">
-                <img src="../images/yuki bw.jpg" alt="yuki">
-            </a>
-            <div class="caption">Yuki</div>
-        </div>
-        <div class="gallery-item">
-            <a href="ryo">
-                <img src="../images/ryo bw.jpg" alt="ryo">
-            </a>
-            <div class="caption">Ryo</div>
-        </div>
-        <div class="gallery-item">
-            <a href="jo">
-                <img src="../images/jo bw.jpg" alt="jo">
-            </a>
-            <div class="caption">Jo</div>
-        </div>
-        <div class="gallery-item">
-            <a href="riria">
-                <img src="../images/riria bw.jpg" alt="riria">
-            </a>
-            <div class="caption">riria</div>
-        </div>
-        <div class="gallery-item">
-            <a href="saki">
-                <img src="../images/saki bw.jpg" alt="saki">
-            </a>
-            <div class="caption">saki</div>
-        </div>
-        <div class="gallery-item">
-            <a href="mifuyu">
-                <img src="../images/mifuyu bw.jpg" alt="mifuyu">
-            </a>
-            <div class="caption">mifuyu</div>
-        </div>
-    <script>
-        // JavaScript for rotating banner
-        var index = 0;
-        var banners = document.querySelectorAll('.banner img');
-
-        setInterval(function () {
-            banners[index].classList.remove('active');
-            index = (index + 1) % banners.length;
-            banners[index].classList.add('active');
-        }, 3000); // Change banner every 3 seconds (adjust as needed)
-    </script>
-
+<div class="gallery">
+    <div class="gallery-item">
+        <a href="akira">
+            <img src="../images/akira bw.jpg" alt="akira">
+        </a>
+        <div class="caption">Akira</div>
     </div>
-</body>
-
-</html>
+    <div class="gallery-item">
+        <a href="naoki">
+            <img src="../images/naoki bw.jpg" alt="naoki">
+        </a>
+        <div class="caption">Naoki</div>
+    </div>
+    <div class="gallery-item">
+        <a href="mao">
+            <img src="../images/mao bw.jpg" alt="mao">
+        </a>
+        <div class="caption">Mao</div>
+    </div>
+    <div class="gallery-item">
+        <a href="yuki">
+            <img src="../images/yuki bw.jpg" alt="yuki">
+        </a>
+        <div class="caption">Yuki</div>
+    </div>
+    <div class="gallery-item">
+        <a href="ryo">
+            <img src="../images/ryo bw.jpg" alt="ryo">
+        </a>
+        <div class="caption">Ryo</div>
+    </div>
+    <div class="gallery-item">
+        <a href="jo">
+            <img src="../images/jo bw.jpg" alt="jo">
+        </a>
+        <div class="caption">Jo</div>
+    </div>
+    <div class="gallery-item">
+        <a href="riria">
+            <img src="../images/riria bw.jpg" alt="riria">
+        </a>
+        <div class="caption">Riria</div>
+    </div>
+    <div class="gallery-item">
+        <a href="saki">
+            <img src="../images/saki bw.jpg" alt="saki">
+        </a>
+        <div class="caption">Saki</div>
+    </div>
+    <div class="gallery-item">
+        <a href="mifuyu">
+            <img src="../images/mifuyu bw.jpg" alt="mifuyu">
+        </a>
+        <div class="caption">Mifuyu</div>
+    </div>
+</div>
 
 
 
@@ -672,7 +779,7 @@
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
           
-          <a href="../about/" class="md-footer__link md-footer__link--prev" aria-label="Previous: About">
+          <a href="../index_OLD/" class="md-footer__link md-footer__link--prev" aria-label="Previous: index OLD">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
@@ -682,7 +789,7 @@
                 Previous
               </span>
               <div class="md-ellipsis">
-                About
+                index OLD
               </div>
             </div>
           </a>
@@ -728,6 +835,8 @@
     
     
       <script src="../assets/javascripts/bundle.d7c377c4.min.js"></script>
+      
+        <script src="../js/carousel.js"></script>
       
     
   </body>

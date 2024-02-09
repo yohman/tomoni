@@ -44,6 +44,8 @@
       
     
     
+      <link rel="stylesheet" href="css/style.css">
+    
     <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -241,6 +243,26 @@
   
   
   
+    <li class="md-nav__item">
+      <a href="index_OLD/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    index OLD
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
     
     
     
@@ -251,10 +273,10 @@
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
         
           
-          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
             
   
   <span class="md-ellipsis">
@@ -265,8 +287,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_3">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
             <span class="md-nav__icon md-icon"></span>
             Gallery
           </label>
@@ -489,6 +511,155 @@
   
 
     
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Projects
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Projects
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="projects/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Projects
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="projects/analog/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    「アナログ版のマッピング作成ーポストイットで想いを伝えよう！ー」
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="projects/miryoku/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    小高の人が持つ魅力
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="projects/omoide_map/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    小高の思い出
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="projects/tsunagari/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    つながり
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
   </ul>
 </nav>
                   </div>
@@ -522,87 +693,37 @@
                   
 
 
-  <h1>Home</h1>
-
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tomoni</title>
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            font-family: Arial, sans-serif;
-            background-size: cover;
-            background-position: center;
-            transition: background-image 1s ease-in-out;
-            height: 100vh;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .title {
-            font-size: 3rem;
-            color: #ffffff;
-            text-align: center;
-            margin-bottom: 30px;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-        }
-
-        .button {
-            position: absolute;
-            bottom: 80px;
-            right: 80px;
-            padding: 15px 30px;
-            background-color: black;
-            color: #ffffff;
-            border: 2px solid white;
-            /*border-radius: 5px;*/
-            font-size: 1.5rem;
-            cursor: pointer;
-            opacity:0.8;
-            transition: background-color 0.3s;
-        }
-
-        .button:hover {
-            background-color: gray;
-        }
-
-        .md-header,
-        h1 {
-            display: none;
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>tomoni</title>
 </head>
+<body>
+    <!-- HTML5 Video Element -->
+    <video autoplay muted loop id="video-background">
+        <source src="images/tomoni.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>  
+    <!-- Content to overlay on top of the video -->
+    <div class="content">
+        <h1 class="title-font">tomoni 友に</h1>
+        <p>unstructured participation in hamadori</p>
+        <button class="button" onclick="enterSite()">Enter Tomoni ▶︎</button>
 
-<body id="background" style="background-image: url('images/bg1.jpg');">
+        [Send :fontawesome-solid-paper-plane:](#){ .md-button }
 
-    <button class="button" onclick="enterSite()">Enter Tomoni ▶︎</button>
-
+    </div>
     <script>
-        var backgrounds = ['futabayamae.jpg', 'taiheiteam.jpg', 'bg1.jpg', 'bg2.jpg', 'bg3.jpg', 'bg4.jpg', 'bg5.jpg', 'bg6.jpg', 'bg7.jpg', 'bg8.jpg', 'bg9.jpg', 'bg10.jpg', 'bg11.jpg', 'bg12.jpg', 'bg12.jpg', 'bg13.jpg','drone1.jpg','drone2.jpg','drone3.jpg'];
-
+        // Function to redirect to your main site
         function enterSite() {
-            // Redirect to your main site
-            window.location.href = 'gallery';
-        }
-
-        // Generate a random index for the initial background image
-        var initialIndex = Math.floor(Math.random() * backgrounds.length);
-        document.getElementById('background').style.backgroundImage = 'url("images/' + backgrounds[initialIndex] + '")';
-
-        setInterval(function () {
-            var index = Math.floor(Math.random() * backgrounds.length);
-            document.getElementById('background').style.backgroundImage = 'url("images/' + backgrounds[index] + '")';
-        }, 5000); // Change background every 5 seconds (adjust as needed)
+        // Redirect to your main site
+        window.location.href = 'gallery';
+    }
     </script>
-</body>
 
+</body>
 </html>
 
 
@@ -680,6 +801,8 @@
     
     
       <script src="assets/javascripts/bundle.d7c377c4.min.js"></script>
+      
+        <script src="js/carousel.js"></script>
       
     
   </body>
