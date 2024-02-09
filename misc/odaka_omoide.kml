@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document id="1L0lq7oroNKggh0JKlJdhZqTgU2YfKVdk">
+	<name>小高 思い出マップ</name>
+	<gx:CascadingStyle kml:id="__managed_style_3FE4C768A12EB83AD97B">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.26.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>2.66667</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_06D2F6A9062EB83AD97C">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.26.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>4</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_2F9041C8D72EB83AD97B">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_3FE4C768A12EB83AD97B</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_06D2F6A9062EB83AD97C</styleUrl>
+		</Pair>
+	</StyleMap>
+	<gx:CascadingStyle kml:id="__managed_style_2233AE440C2EB83AD97E">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>4</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_183B1B98B72EB83AD97E">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>2.66667</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_0A286276BF2EB83AD97E">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_183B1B98B72EB83AD97E</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_2233AE440C2EB83AD97E</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark id="0C30FF70FC2EA6049C91">
+		<name>マップ全体図</name>
+		<LookAt>
+			<longitude>140.9908141363654</longitude>
+			<latitude>37.56685031766568</latitude>
+			<altitude>4.805620118043898</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>30.00027875431545</gx:fovy>
+			<range>2543.805499908922</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0A286276BF2EB83AD97E</styleUrl>
+		<Point>
+			<coordinates>140.9956041634151,37.56299959526218,2.881165511635552</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="033FEAD8082EA54C4DE9">
+		<name>小高の商店街</name>
+		<description><![CDATA[<div>商店街にはお店がびっしりあり、すべてこの町で完結できていた。<br></div><div>スーパーも肉屋も魚屋も八百屋も呉服・靴下駄もこの商店街周辺だけで3〜4軒あった。昭和30〜40年頃だと十数軒。<br></div><div>小高城の城下町だったから区画がきれいに整理されて、お店もすべてそろっていた（小高神社が小高城跡）。<br></div><div><br></div><div><br></div>]]></description>
+		<LookAt>
+			<longitude>140.9945625950235</longitude>
+			<latitude>37.56329727529884</latitude>
+			<altitude>3.208503536440057</altitude>
+			<heading>-71.14441305135993</heading>
+			<tilt>76.4992163558007</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>257.7625557566716</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_2F9041C8D72EB83AD97B</styleUrl>
+		<gx:Carousel>
+			<gx:Image kml:id="hosted_image_QUVROFBpdUZqQzV4K21yNndGcDdrZjR2bWkwd3dSaFN4Y1ZkcnhqbnRtMGNBcitQYVJFWVVscjJuRmNiSThIbmNxeWRRNnI0Wm93ZWRFUjNwelNuK0ZOREs0aEFUYnJTQXk5cWNUZDNUMU13cW1uNUI5R1lwQXpiaWFwN21FWDduTjVIT3p1YVlPNHAvaDY4ekxxb3pZUHZHalMzYnpPV3JWd2M5QU1XOHNjWGVjcUVUOW52OFdkWVV5ejNFMlp6MkFCQW5ZUndQVTNvczFHV2tJL0pkQTlZYVc4WEQ0YWhTQ3B2ajNKcHBtSkUyUzlYd1RBa1ZMWjlrVjVCSjZGMzdCdjh3NUpQZzBlR0t2WmVUSmVpcmhTWitrTTFXeFpNSnd5Ug_0">
+				<gx:ImageUrl>https://doc-04-9k-mymaps.googleusercontent.com/untrusted/hostedimage/e/j7beeqbo6qotjjdq1358523hts/3auoq7pnonrpdg6pasa6r0kjvc/1706832000000/MGhIbIESAkfcMVDuNVrtN8cRdRLw12OS/*/4AEQ8PitYtfbFRFxRtFSbmEaWeZvOcz6CSJiQ64NQG1IInPkNYMTUxPjTrHq0D868F0z3LcxQF6Scy6U1VehKBBqttCet0iYpYnWUMvYTvASLUHITVa1Y5ZhAMRElMaPW6zyYjiFYwRrIHi5WxRQFFjQXl66cyw7IWOrLPKY04C8ApmOtZll6B5Cg6ejcyz0H1T_1K5B97VGQA4YB9on9y4bU4jK6vIVLxosrqbaS7nmJLIE3DcicBQ?session=0&amp;fife=s{size}</gx:ImageUrl>
+			</gx:Image>
+			<gx:Image kml:id="hosted_image_QUVROFBpdnFTendxSVpwTC84b0JwOWMzREdsK095UG5WOCs0MElzU25MczhPNlVmc3hMNmlySVVVT1pwSWIxbWZQNVNVVUgrblh0dmZabCttTUJwNEpCQXNqZVFkRWh1SnlMZUptQVNWdFRQNGpxdU50ZkQzNmRpRElEaFZIM293dU5veUlTYWQvT2hJQWovS1VHT2QzRkg4QzRnbDZML2FvSEpYeFA0S0xBZks1Y0w5cm9xRFArK212OEYzbGlKaXZSc3g5NURlL0NXNzZzZHBBcXRWZHZ3eGl5MEx2bUxpNFhvYTd1bHpveVNRN0lTMGRHc1NDaEJZRHk3bVFDWnVhWjdZSzBoRmtmY3JyVFlUSmJISllWNlA1UGtjbEdCeXp4OA">
+				<gx:ImageUrl>https://doc-00-9k-mymaps.googleusercontent.com/untrusted/hostedimage/e/j7beeqbo6qotjjdq1358523hts/p3jaq9ab7bb3ts0qq249pmgceo/1706832000000/MGhIbIESAkfcMVDuNVrtN8cRdRLw12OS/*/4AEQ8PivhC4of_OWJj1qcNFYgxa4MTdC7D_O_lPsy7FmD-LPfxEs8rb4ZPc4U3x_z7Y-227toL7FUWWb1FLLztXQQEizQDIEJYR-RG3l6xxXppL7ksnGF6z5RxGvyrPyjRb_sfMUcgOzKx9wqYiY07C89l4HobJm95m8QD6LyoeRW5LAManFBFnpLC6Nq31g5Mjjr6woT-xafgscjYaqprYluAKjIYcj09D1q3R5V6IFxkLfur5VhNA?session=0&amp;fife=s{size}</gx:ImageUrl>
+			</gx:Image>
+			<gx:Image kml:id="hosted_image_QUVROFBpc0JVZVNWYXc4T0c3MGNCbEJJdzRIaEpFZFpFNmNLL3grS3Iwa3JtL0MzZjVKelByUUUydWlYVkI0Ym5CR1U5VzZrR1c1TUZZSFk4b2RmZ1BwYTRSWmVvRHozd21Zc0c5QjhHS2cycmpaaGRTdktFd2RPTHZ5a1VndnR4TW5lcVhVbXhXUituYTNWRHoxOFdSV3U4MGFOdDhpSDNOU2RzcGdVZ09mNWZiQlFxbWltbGwxbGt3VDcyNm9oN2dOYm5OTExlNEtzT3Q2ZG5vOWlINDBBRVhlVzl1L3lseVRyS0lOdkFyZGZqbWx0NXpHeDltWE16Q01Od2dKZDQvRU50S1lucFd1ZkJGQzVuWlp1RkErSmYyS3hKdEtmWE1BUA_0">
+				<gx:ImageUrl>https://doc-08-9k-mymaps.googleusercontent.com/untrusted/hostedimage/e/j7beeqbo6qotjjdq1358523hts/c5mkp5a9dqr981bqjsi9biaj78/1706832000000/MGhIbIESAkfcMVDuNVrtN8cRdRLw12OS/*/4AEQ8PisZ5FydJc87RnDgafo_ymKR0x7ETYOis_ZFPczsgNZ2vxvRUiUyzTuwgRx6ijItX6g1k1rqbP6H5auFDe9t_qmncAY9Ode1qgW4eMkFRs54goc0qBMF53fpsvC4IFEx9x1IUs8wZstIiBVT4c_AJSz1HK96UAkgN9PXbkzy_zwgBqRsAmpjeHZuMDlaf7PSk0lsahcdMlFh37SNxSq72U_iCj5nfew6KxjpOC4_3N8jfYUL-A?session=0&amp;fife=s{size}</gx:ImageUrl>
+			</gx:Image>
+			<gx:Image kml:id="hosted_image_QUVROFBpdW9aSWp0SmJ1UGJIVjV2c2pNcFFDcjU0NS9lM0gvcnpJUUxiaG96NHk2b2tFdnJBejVWM1ZodVUvWVprZVhrcG43c3lVeXlDdXE5alM1VFlYWURpakJtQjFJR2hwL3greno1VDhMQ0EwWE9QNk5YdlozT3BBZ3cwSWVTOHVFdmtacDRIMDFSUHE3V1FjRE5NcHpyRmpLM1VzWU1OODFQUWc5M2lvNXY1TEJmTkgrOVh2RDJ1YnJ3L0VDdDZjNUMrM2tpNGpSMGdSc0ZIVEsxUzF0c3ZyM05hV2V3QmpJSTBpK1pVUXRmTVNQRXA3NFZVQmdwNThuMU9keE9FcENCYW5MWnBDWk0xZWpPN0FjSVBUSUlyaHdGTUQ5dTVVRw">
+				<gx:ImageUrl>https://doc-04-9k-mymaps.googleusercontent.com/untrusted/hostedimage/e/j7beeqbo6qotjjdq1358523hts/dkqi0e8gs8dqslehp1ed380r8c/1706832000000/MGhIbIESAkfcMVDuNVrtN8cRdRLw12OS/*/4AEQ8Pivi0iheZHIRycOGcqWQpRRtRsyI9doDUbz6vB46KtpoD79MX2opsopplzslq6w5A1bKj-1yxBRUImFOqrm4ZiFu4X1A7ms9Doe0r3fty-lcnN4s3Vi_oCa0E6omWmxRa82ikr0ysK7cY5lfstRFdUDkcp75GMBsdbQA1DBh8lRUmKxWbPWn_0I1ME_witXnz3S_f0NT9DMByMHfKGvFnIcOpZ-PL7kv_TUvfrp-gZ4mnKsrfw?session=0&amp;fife=s{size}</gx:ImageUrl>
+			</gx:Image>
+		</gx:Carousel>
+		<Point>
+			<coordinates>140.9956224837083,37.5630077077537,4.11862926643499</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="05B74B78D42EA56CAE6A">
+		<name>吉田自転車店など</name>
+		<description><![CDATA[<div>高校生が駅から学校まで自転車に乗るからパンクの修理など需要があった。<br></div><div><br></div><div><br></div>]]></description>
+		<LookAt>
+			<longitude>140.9948618102299</longitude>
+			<latitude>37.56294593416116</latitude>
+			<altitude>2.425478291591492</altitude>
+			<heading>15.4851302284478</heading>
+			<tilt>10.0000342113853</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>209.7618401929867</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_2F9041C8D72EB83AD97B</styleUrl>
+		<gx:Carousel>
+			<gx:Image kml:id="youtube_video_IIeniKMx9to">
+				<gx:ImageUrl>https://img.youtube.com/vi/IIeniKMx9to/hqdefault.jpg</gx:ImageUrl>
+			</gx:Image>
+		</gx:Carousel>
+		<Point>
+			<coordinates>140.9948744073514,37.56312798396389,2.449316113651571</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0790126DC92EA558F7B2">
+		<name>小高スーパー</name>
+		<description><![CDATA[<div>昭和42.43年スーパーの先駆け。外部の会社ではなく、街の人たちの資本のスーパーだった。もとは履物や野菜などを置いていたが、肉魚も置いたことで大繁盛した。<br></div><div><br></div><div>行きつけのスーパー。（by 谷地魚店さん）。<br></div><div>息子が帰ってきて焼き肉・すき焼きをするときや、おいしい肉を食べたいときは肉屋さん。肉屋さんは高いけどおいしい。<br></div><div>普段はスーパーの肉。硬いな～と思いながら食べる。<br></div><div>八百屋さんもたくさんあったが、移動販売先で何かしら野菜をもらってきて、それで間に合うこともあった。<br></div><div><br></div><div><br></div><div><br></div><div><br></div>]]></description>
+		<LookAt>
+			<longitude>140.9925580472655</longitude>
+			<latitude>37.5634908060338</latitude>
+			<altitude>5.77324804962603</altitude>
+			<heading>15.48318799924926</heading>
+			<tilt>10.34713539654095</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>154.3285900106093</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_2F9041C8D72EB83AD97B</styleUrl>
+		<gx:Carousel>
+			<gx:Image kml:id="youtube_video_RTonSHh3Zt8">
+				<gx:ImageUrl>https://img.youtube.com/vi/RTonSHh3Zt8/hqdefault.jpg</gx:ImageUrl>
+			</gx:Image>
+		</gx:Carousel>
+		<Point>
+			<coordinates>140.9925976079259,37.56359957551302,5.590609136424394</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="06D0F5EEC02EA5A27BED">
+		<name>小高パチンコ店</name>
+		<description><![CDATA[<div>昭和50年頃は数軒パチンコ屋さんがあった<br></div><div>当時はバネで球を飛ばす形のパチンコ。おじいさんがパチンコ上手でたくさん景品を持って帰ってきてくれた（by 鍋屋金物店さん）。<br></div><div><br></div>]]></description>
+		<LookAt>
+			<longitude>140.989893780732</longitude>
+			<latitude>37.56445760372254</latitude>
+			<altitude>6.474009047008488</altitude>
+			<heading>15.65924411820875</heading>
+			<tilt>8.749992539721058</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>182.5437942360259</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_2F9041C8D72EB83AD97B</styleUrl>
+		<gx:Carousel>
+			<gx:Image kml:id="youtube_video_M_KHrXaCxao">
+				<gx:ImageUrl>https://img.youtube.com/vi/M_KHrXaCxao/hqdefault.jpg</gx:ImageUrl>
+			</gx:Image>
+		</gx:Carousel>
+		<Point>
+			<coordinates>140.9899230912897,37.56441696635152,6.221847634986584</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="07F4F354A02EA566966F">
+		<name>菓詩工房</name>
+		<description><![CDATA[<div>菓詩工房のケーキはデコレーションがきれい。色のアクセントとなる苺の使い方が上手。 <br></div><div>でもデコレーションの下の中身が寂しい。人にあげるときは菓詩工房、自分が食べるときは越後屋。<br></div><div>現在は原ノ町に移転してしまった。<br></div><div><br></div>]]></description>
+		<LookAt>
+			<longitude>140.9933934342909</longitude>
+			<latitude>37.56378024420816</latitude>
+			<altitude>5.568697046505601</altitude>
+			<heading>15.48367203273276</heading>
+			<tilt>17.49999797002933</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>136.3146237130059</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_2F9041C8D72EB83AD97B</styleUrl>
+		<gx:Carousel>
+			<gx:Image kml:id="youtube_video_D--UcU4lHS4_0">
+				<gx:ImageUrl>https://img.youtube.com/vi/D--UcU4lHS4/hqdefault.jpg</gx:ImageUrl>
+			</gx:Image>
+			<gx:Image kml:id="hosted_image_QUVROFBpdlkxNmFLNXB0TFdoaDN1TjQvVnZOcnVHbVRvMzZBbUh5RzR5NTdtcWdKYkJIU0dXand6UXJWRHFHNEp2ZHpnYllFV3dURVVlR291Y21CZkVJU0xGcm5ER3J2OHhNdC81M2lHVXdTdXVBYlNEWDc5N0IrZ2RuSUxvdkRxUVVybk4rakRZMWVYdDl1SkFNdi9SMGdSUm9CK3NyVG4yLzZlT1NyRDdleks5cTZMdmJwVVZSRnMwcjg3Vy83VzIrNkdvQjlsRHBxR0xtQjJpRzYzMTRrSDU3NXIweU9iVkRZYjFJOTNrb3U5Z2kvWFpEOWJoY3NjUDdobGppN1FKT2xIR05aUHZrMUQvY3JvT08vQUhudkdJcTZIckJ0VzFyLw">
+				<gx:ImageUrl>https://doc-10-9k-mymaps.googleusercontent.com/untrusted/hostedimage/e/j7beeqbo6qotjjdq1358523hts/3v04o0t6sacduc2fer469vr1s0/1706832000000/MGhIbIESAkfcMVDuNVrtN8cRdRLw12OS/*/4AEQ8PiswgqJxp9naOK7QcyBFNjBscZylpkzeyIAJSR-4E2OCe8KxQxJNNltyrTHg91EIEEhij3Og5PcI9c3-eIC2BzQhJsCslGGOsXblrGAqX9w3uORcmka5h50zhlNaBLo7FHYkT_MBy4hEbDm8iBYgUlJBynb5FZdKMIsCHsH3CfDUyFOMQHTm9bJvoS6UEefsxKNrGfVXxHSaeQqMUzTLd2rB1lMSFGm1L6N9pngUTVeLDEsNyg?session=0&amp;fife=s{size}</gx:ImageUrl>
+			</gx:Image>
+		</gx:Carousel>
+		<Point>
+			<coordinates>140.9933522724235,37.56363692291168,4.966108806779494</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="070C5D8DDC2EA403B4C4">
+		<name>松月堂</name>
+		<description><![CDATA[<div>松月堂のケーキは高級品（値段が高い...）（by 谷地魚店さん）<br></div>]]></description>
+		<LookAt>
+			<longitude>140.9845861064461</longitude>
+			<latitude>37.56549173996406</latitude>
+			<altitude>5.401695760319429</altitude>
+			<heading>15.65225590850214</heading>
+			<tilt>8.750078454331788</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>245.345017834079</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_2F9041C8D72EB83AD97B</styleUrl>
+		<gx:Carousel>
+			<gx:Image kml:id="hosted_image_QUVROFBpdDlyM0Jwa0FDWVRSd3F3T0JpSFc3QitRUWVpVW9jUjNrcHExYlRUS2hFcmNpa0UyZ1BSOGxlSFNjdWkwZUpIVHl0elhrUU5LVGM3SFlBU1FOeTRzemxKZzZkdHRUTXBJUEh5K1FKWVY0QmxSNHZrbVZtVjhzaGVBdm5sNTlIVGFWVWJXNDlVY21lanJLa3E1S0YwM25rTUhQRWd3WmV6Smd1WnpCVHN3NVdoTWFnNDNyRU1KMDc2QVZXVGFLMlZLYVkxU0srM3ZzZ3VKb0J3NmxheWdMZWszWTlieDFoUXJDNkMxRVQxK2dEVFNmN1FLY1R3dkgwY1FTclpuT0ZNandRenNqYm1uT2hKTW9RY1BCSFQ1S0RkaFpTcDFUZA">
+				<gx:ImageUrl>https://doc-0o-9k-mymaps.googleusercontent.com/untrusted/hostedimage/e/j7beeqbo6qotjjdq1358523hts/l6v236jq74c9l9req452bnpnj0/1706832000000/MGhIbIESAkfcMVDuNVrtN8cRdRLw12OS/*/4AEQ8PiuzxmiOC9RnUMbxbs_wNt8NLUhtMGUd_BOLakxX8ARAeJGYXZgrB1tRKM34FzXL9yzoGypCp23_wu-8C2i8Z2_TueWawsIfHAk8-ov6uUI2A5e3IX0kC7KKm40QKHSUc7M8dG_WQO1g5bzQX4le7F-GKlMQhFKHtgpMCvB-mJVyhV1TDq3O-F-4KA4YoLVE7X9Y3BgfKglbMs9y0t3UN0sDkLK0oAjz0xNX5y0HU81KQCI0rg?session=0&amp;fife=s{size}</gx:ImageUrl>
+			</gx:Image>
+		</gx:Carousel>
+		<Point>
+			<coordinates>140.9845814275635,37.56536622810306,5.466447285955851</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0A21162B402EA55A1E2C">
+		<name>越後屋</name>
+		<description><![CDATA[<div>新潟から来たかんばらさんがやっていた。<br></div><div>シンプルだけど味が良く、値段も高くない。だから、人にあげるときは菓子工房、自分で食べるときは越後屋。</div><div><br></div><div><br></div>]]></description>
+		<LookAt>
+			<longitude>140.9922017469898</longitude>
+			<latitude>37.56366636670504</latitude>
+			<altitude>6.696021696146381</altitude>
+			<heading>15.66194733179971</heading>
+			<tilt>8.7498993179503</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>114.4011885663167</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_2F9041C8D72EB83AD97B</styleUrl>
+		<Point>
+			<coordinates>140.9922354707237,37.56368234902264,6.484263901319489</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="062025169E2EA564A9EE">
+		<name>掃部関ポンプ店</name>
+		<description><![CDATA[<div>水道工事や井戸掘りをするポンプ屋さん。<br></div><div>どの家の裏にも井戸があった。飲んだりはせず、庭に水をまいたりするのに使っていた。<br></div><div>石蔵もどの家の裏にも大体あった。中は温度が比較的一定で、夏は涼しく冬は暖かい。商売用の商品や家宝のようなものを保管していた。<br></div><div><br></div>]]></description>
+		<LookAt>
+			<longitude>140.993909169929</longitude>
+			<latitude>37.5635919435061</latitude>
+			<altitude>4.898034317815963</altitude>
+			<heading>15.48409064949291</heading>
+			<tilt>10.00000000003734</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>187.8540951469404</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_2F9041C8D72EB83AD97B</styleUrl>
+		<gx:Carousel>
+			<gx:Image kml:id="youtube_video_j47JoBj4iRY_0">
+				<gx:ImageUrl>https://img.youtube.com/vi/j47JoBj4iRY/hqdefault.jpg</gx:ImageUrl>
+			</gx:Image>
+			<gx:Image kml:id="hosted_image_QUVROFBpdlM0SlFpaG94UUpuRENZaVIzQ2pjMmRJaEFQUCtCbmw2UmU0Y1pzNDI5MmNBSjFSY01oSXFHb2Y3dS9Qc0tVTE9NcHg5ZFVhWklNU0xLZE1jWlFFOHNmMk9tbHlaekNXVS9OYUI4Q3U1WThWRk5IM1d3MzNLNUtmN1Y2VFF0bXpLYktRUE4yK1Z5VWtRM3gzcnVxb0lOMXlMOFBHclFqWWwzNmJHem1ST3pyanIzemt1WDZzcVlVcXFGU2t6WlZmelJKT0k4ZzJJMnhaVm1yTzZlb0xBT0phbGZiR3lpOFlyekVyR2J0NEJoV25nMFlJL0ZXYVpDcCsrY1lMcmI3eDd3cnhLakNVcVNuZkF0MnNYWDJtMGZ4UEpCTzg1aA">
+				<gx:ImageUrl>https://doc-0k-7g-mymaps.googleusercontent.com/untrusted/hostedimage/e/ase3u5mp4s9culkvnu195m5o04/aqluh9a454nfvevcgihl89e7kk/1707312126000/MGhIbIESAkfcMVDuNVrtN8cRdRLw12OS/07670792147113880038/5AEQ8PiuapSll3vX4UHEy4BrIQWagClOLqDahTWpdbovJgTe9lNW7w-EjDcOFRDDXpk5YMtXNXUPgCI5Ce5oTmYvRL-1SqltgqDt8VPxBs975xspvRVaaPi2cX9RJmUd4BElkkha6M2RisDvazblAerr4PVEPuu1gLp69d4E4kod91Fm0iqoL43N4DUS3vHe2QmiuGcpUJfsgOHdQ5EKI-DF7tMHiCtWFu2hnisAV4GjfJftAUJ28lw?session=0&amp;fife=s{size}</gx:ImageUrl>
+			</gx:Image>
+		</gx:Carousel>
+		<Point>
+			<coordinates>140.9939116711384,37.56352388989882,4.60453181219886</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0671074D862EA55E6BBF">
+		<name>ふたば食堂</name>
+		<description><![CDATA[<div>ラーメンが有名でいつも行列ができる食堂。100人くらい並ぶことも。<br></div><div><br></div><div>行列には並んでいられないから、出前として容器に入れてもらい、食べ終わったら返しに行っていた。<br></div><div>めったに出前はとらなかったけれど、家にお客さんが来たときなどは出前を頼んで楽しんでいた。（by 鍋屋金物店さん）<br></div><div><br></div>]]></description>
+		<LookAt>
+			<longitude>140.9938654247672</longitude>
+			<latitude>37.56284274088279</latitude>
+			<altitude>3.043599957387542</altitude>
+			<heading>6.655516338019058</heading>
+			<tilt>29.2500025114802</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>249.5339285439695</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_2F9041C8D72EB83AD97B</styleUrl>
+		<gx:Carousel>
+			<gx:Image kml:id="hosted_image_QUVROFBpc29Lc3IyanN3Y1dQNGVIWnVUblhmZFFlWTFqUjdQNnl6RVJBN2Q0di94MVFqR01Ob2NxRzhLOU8yd1FMN29LdUc1cjcxQ3pDU1FEcFhyTVlVTTFWeFRabWlSazk3S1NxZUJzNk8vTzk2YVNsWlBtN0N4ajlGOWRjUVV6amFhenRsMGFaOGlKYTdKc09ya2gzTFV3VkdwMXZmWDZheDc0aC8rUGtKSHNWcVRyL2l3ZHI3eG56UGx1WkpnQ01uV0VxVUtQUEdtVXlLMkxMLytNSlZSNmtlUjhNQk1kdUFUa3c1OFQ1TjRmOFpXMHdyK1RVQ3dvT25iY2dPWmF1SGdiZ2lHZ0pPMWxRMWc3RGlaNlVNVzRzTWRuR1JWS2kyVw">
+				<gx:ImageUrl>https://doc-0o-9k-mymaps.googleusercontent.com/untrusted/hostedimage/e/j7beeqbo6qotjjdq1358523hts/dfcce4ouklbkfbi0mgfpf6129s/1706832000000/MGhIbIESAkfcMVDuNVrtN8cRdRLw12OS/*/4AEQ8PisnYTR7XYbt5X4iKx0jI2WUIIDb6Z5t62YsRsFw9UtUTubbUsT_b2_gFFl-PZZ_w_EkWC1R-R8YKjtSkDReKaVPd_qY9WTBTQorTaJWvDpV2Sthb3RMD-MIfbj5I-BSqS7IAIhwnGDEaE1oXskMecXYKIF8XlcMJO4k-XBZ8XZN4b-NLGwV9XRxgw9FmzHsl0OgYIf1Kec8giiHktr8On598gj6tgC3eGwdX84AoypL3FSZwg?session=0&amp;fife=s{size}</gx:ImageUrl>
+			</gx:Image>
+		</gx:Carousel>
+		<Point>
+			<coordinates>140.993833208059,37.56273736323519,3.195698377266494</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="025EEA546A2EA5D33FBF">
+		<name>映画館</name>
+		<description><![CDATA[<div>昔は各町に映画館があった。<br></div><div><br></div><div>アメリカ映画が上映されるときは、映像がスクリーン左側に映されて、字幕が縦書きで右側に出ていたから、左側の席の方が良かった。<br></div><div>また、アメリカ映画が上映されたときは外国人と日本人で笑うタイミングが違った。外国人はセリフを聞いて笑うが、日本人は数秒後に字幕を見て笑う。 <br></div><div>向こうの方が早く理解しているから「ちきしょー」と思っていた。（by 谷地魚店さん）<br></div><div><br></div><div><br></div>]]></description>
+		<LookAt>
+			<longitude>140.9890731178253</longitude>
+			<latitude>37.56544917445721</latitude>
+			<altitude>5.042503272460284</altitude>
+			<heading>15.65937152880032</heading>
+			<tilt>8.750103419131648</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>263.5938543347948</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_2F9041C8D72EB83AD97B</styleUrl>
+		<gx:Carousel>
+			<gx:Image kml:id="youtube_video_iURzqamE76w">
+				<gx:ImageUrl>https://img.youtube.com/vi/iURzqamE76w/hqdefault.jpg</gx:ImageUrl>
+			</gx:Image>
+		</gx:Carousel>
+		<Point>
+			<coordinates>140.9892667977302,37.56542483071133,4.903518783354965</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0C4651034B2EA56B14A0">
+		<name>愛輪社</name>
+		<description><![CDATA[<div>小高の自転車店草分け的存在。<br></div><div>もともと他に2~3軒自転車店があったけれど、 旦那さんの人当たりが良かったからどんどん人が増えた。<br></div><div><br></div>]]></description>
+		<LookAt>
+			<longitude>140.9915555429383</longitude>
+			<latitude>37.56395424138784</latitude>
+			<altitude>7.62631316055243</altitude>
+			<heading>14.77692898759562</heading>
+			<tilt>6.749980931602668</tilt>
+			<gx:fovy>30</gx:fovy>
+			<range>333.3369195954947</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_2F9041C8D72EB83AD97B</styleUrl>
+		<gx:Carousel>
+			<gx:Image kml:id="youtube_video_pGOS08f0QVU">
+				<gx:ImageUrl>https://img.youtube.com/vi/pGOS08f0QVU/hqdefault.jpg</gx:ImageUrl>
+			</gx:Image>
+		</gx:Carousel>
+		<Point>
+			<coordinates>140.9915152924326,37.5638429935405,7.610951632167483</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="092B6694B32EA40E039B">
+		<name>小高小学校</name>
+		<description><![CDATA[<div><div>昔は、現在校庭があるところに校舎があった。<br></div><div><br></div><div>＜子供たちについて＞<br></div></div><div dir="ltr">良いところの坊ちゃんや、女ばかりの兄弟での末っ子の弟は長髪で7・3分けだった。<br></div><div>他はみんな坊主頭で、鼻を垂らして袖で拭いて袖がカピカピになっていた。（昭和30~40年代）<br></div><div>（by 谷地魚店さん）<br></div><div><br></div><div><br></div>]]></description>
+		<LookAt>
+			<longitude>140.9859265450592</longitude>
+			<latitude>37.56192817511748</latitude>
+			<altitude>7.229209968610015</altitude>
+			<heading>15.65812633062485</heading>
+			<tilt>8.75058775490608</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>617.6315223120764</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_2F9041C8D72EB83AD97B</styleUrl>
+		<gx:Carousel>
+			<gx:Image kml:id="youtube_video_hzcyG98mosU">
+				<gx:ImageUrl>https://img.youtube.com/vi/hzcyG98mosU/hqdefault.jpg</gx:ImageUrl>
+			</gx:Image>
+		</gx:Carousel>
+		<Point>
+			<coordinates>140.9856862497854,37.56179651228038,7.237128901028484</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="017CB8B5AD2EA56F0CF2">
+		<name>小高教会・幼稚園</name>
+		<description><![CDATA[<div>この辺の商店街の子供たちが通っていた。<br></div><div>業者ではなく自分たちが自分たちの幼稚園を直したり建てたりしていた。<br></div><div><br></div>]]></description>
+		<LookAt>
+			<longitude>140.9918258444403</longitude>
+			<latitude>37.56362177710542</latitude>
+			<altitude>7.951753533883162</altitude>
+			<heading>15.66171835789311</heading>
+			<tilt>8.749939054998173</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>143.4479123463643</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_2F9041C8D72EB83AD97B</styleUrl>
+		<gx:Carousel>
+			<gx:Image kml:id="hosted_image_QUVROFBpdnROZXAxbU9xeHkxZitRRi9TeHVxdVZjNW8yRHF6ZUViemhFcStSZ1QvRjFSU0VlTVV6V0VGZDBkVWh1VllQL2RSK0twM1doVUk0Vnl3eTBXNzB5S0tiMjNqVnY5eGJUQmNnNnd3N3ViU2NYa0VMcXlWVGtLN2kyeDAwcURUNkJNNWowMlFGRk1PNE52c2l3enBOdUVKZlB4Z21LS09KREYwMWMyT3NKVEp4ZTJIY2U1bW9VSDQ4WWJidG9LN1hrNm12Z0FXY0g2bUNTOHh5RGhaWDFvNDdDWTV6QmJRZmxrWDF2MVVGVlV2UEY3ZTI4anJQU1phMTFGV3ZyTHY4YTg3Z1ZuN0Y4TTBXTk9MRUlxOXN5UWNxZFpFNnI1Sw_0">
+				<gx:ImageUrl>https://doc-10-9k-mymaps.googleusercontent.com/untrusted/hostedimage/e/j7beeqbo6qotjjdq1358523hts/efr5e5e0hju2pa2trektcgutno/1706832000000/MGhIbIESAkfcMVDuNVrtN8cRdRLw12OS/*/4AEQ8PivU_932-lTkD7dvm46ZnXpfNe4rDNHqWYripDHeBsKpsIikxtMKQAdtuvVIYLxUV-bTNwBLbate-NFTEh1QUrNgJctADD_q-yFM6v9omCG6uhTvxgmbUUh2qZymTc9Z0zuaXqxduLKeKpuJ50-n5t5DgCo_sugHSv6KClTGKgyAIkDT2mcv4D3N-p9SPoqkxw4Sv9YFv3oPxCL6ed6F09MOpPPoW90EjM4P9DT96x1zJXA6CQ?session=0&amp;fife=s{size}</gx:ImageUrl>
+			</gx:Image>
+			<gx:Image kml:id="youtube_video_b-uIbA9CtUg">
+				<gx:ImageUrl>https://img.youtube.com/vi/b-uIbA9CtUg/hqdefault.jpg</gx:ImageUrl>
+			</gx:Image>
+		</gx:Carousel>
+		<Point>
+			<coordinates>140.991933466314,37.56370652697256,7.958726897115813</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="07038675472EA57142AA">
+		<name>同慶寺</name>
+		<description><![CDATA[<div>大寒から節分まで寒行托鉢がある。 <br></div><div>今は日中に托鉢をしているが、震災前は、町内の檀家さんや住職さんが夕方6~7時頃に托鉢をしていた。<br></div><div><br></div><div><br></div>]]></description>
+		<LookAt>
+			<longitude>140.9807089574612</longitude>
+			<latitude>37.57103329790273</latitude>
+			<altitude>16.52037315813241</altitude>
+			<heading>15.65210975998052</heading>
+			<tilt>8.750400059518487</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>480.4313520603318</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_2F9041C8D72EB83AD97B</styleUrl>
+		<Point>
+			<coordinates>140.9808252924734,37.57107864823995,17.08056372251334</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

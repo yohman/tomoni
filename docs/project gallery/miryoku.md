@@ -1,5 +1,10 @@
 # 小高の人が持つ魅力
 
+<a href="../../tomoni participants/naoki" class="circular-image-link">
+    <img class="circular-image" src="../../images/naoki bw.jpg" alt="naoki">
+</a>
+
+
 <video src="../images/naoki.mp4" autoplay controls width=50%>
     Your browser does not support the video tag.
 </video>

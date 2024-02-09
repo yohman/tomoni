@@ -1,8 +1,15 @@
 # つながり
 
+<a href="../../tomoni participants/yuki" class="circular-image-link">
+    <img class="circular-image" src="../../images/yuki bw.jpg" alt="yuki">
+</a>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/l0sotSoOWoY?rel=0&si=qrukV1a2m6In2obO&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<!-- 
 <video src="../images/yuki.mov" autoplay controls width=50%>
     Your browser does not support the video tag.
-</video>
+</video> -->
 
 人とのつながりの強さが小高の大きな魅力の一つであると感じたことから、このプロジェクトでは小高を繋ぐ様々な「つながり」をテーマとしたショート動画を作成した。	この動画を見て初めて小高を知った人に、小高の魅力を知ってもらうこと。	
 

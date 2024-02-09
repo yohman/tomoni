@@ -6,9 +6,14 @@ hide:
   - footer
 ---
 <style>
-	.md-header{display:none;}
-	.md-tabs{display:none;}
+	.md-header{
+		display:none;
+	}
+	.md-tabs{
+		display:none;
+	}
 </style>
+
 <!-- HTML5 Video Element -->
 <video autoplay muted loop id="video-background">
 	<source src="images/tomoni.mp4" type="video/mp4">
