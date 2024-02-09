@@ -2,20 +2,20 @@
 body, html {
     margin: 0;
     padding: 0;
-    height: 100%;
-    /* overflow: hidden; */
+    height: 100vh; /* Use viewport height instead of percentage */
+    /*overflow: hidden; /* Remove comment to hide overflow */
 }
 #video-background {
     position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
+    top: 0; /* Adjust positioning to top */
+    left: 0; /* Adjust positioning to left */
+    width: 100%; /* Use 100% width */
+    height: 100%; /* Use 100% height */
     z-index: -1000;
+    object-fit: cover; /* Add object-fit property */
     background-size: cover;
 }
+
 /* Optional: Add additional styling for content */
 .content {
     position: absolute;

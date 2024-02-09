@@ -1,4 +1,3 @@
-<h1>Member Gallery</h1>
 <div class="gallery">
     <div class="gallery-item">
         <a href="akira">

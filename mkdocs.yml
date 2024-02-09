@@ -4,7 +4,7 @@ theme:
   use_directory_urls: true
   scheme: slate
   palette:
-    primary: "black"
+    primary: "white"
     accent: "amber"
 
   font:
@@ -12,7 +12,9 @@ theme:
     code: "Roboto Mono"
   language: "en"
   features:
-    - navigation.footer    
+    - navigation.footer
+    - navigation.tabs
+    - navigation.indexes
 extra:
   generator: false
 extra_css:
