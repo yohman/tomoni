@@ -1,6 +1,7 @@
-site_name: tomoni
+site_name: tomoni 友に
 theme:
   name: material
+  logo: images/logo.jpg
   use_directory_urls: true
   scheme: slate
   palette:
