@@ -5,6 +5,22 @@ body, html {
     height: 100vh; /* Use viewport height instead of percentage */
     /*overflow: hidden; /* Remove comment to hide overflow */
 }
+
+.md-header__button.md-logo img, .md-header__button.md-logo svg {
+    height: 2.5rem;
+}
+
+.md-header__topic:first-child {
+    font-weight: 700;
+    font-size: 1.2rem;
+    font-family: fantasy;
+    top: 5px;
+}
+.md-typeset h1, .md-typeset h2 {
+    font-weight: 200;
+    /* font-family: fantasy; */
+    letter-spacing: -.01em;
+}
 #video-background {
     position: fixed;
     top: 0; /* Adjust positioning to top */
@@ -174,4 +190,8 @@ body, html {
 .circular-image-link {
     display: inline-block;
     text-decoration: none; /* Removes underline from the link */
+}
+
+small {
+    font-size: small;
 }
