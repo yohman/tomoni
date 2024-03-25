@@ -5,9 +5,11 @@
 </a>
 
 
-<video src="../images/naoki.mp4" autoplay controls width=50%>
+![alt text](images/naoki.jpeg)
+
+<!-- <video src="../images/naoki.mp4" autoplay controls width=50%>
     Your browser does not support the video tag.
-</video>
+</video> -->
 
 私たちが小高についてほとんど知らない状態で行くことで見えた小高の魅力や移住を決めた人たちが見た小高の魅力を伝えるためのプロジェクト	移住した人たちが見た魅力や日頃の感謝などを現地で頑張る人たちに伝えること！	
 
