@@ -29,8 +29,8 @@ title: Project Gallery
 	</div>
 	<div class="gallery-item">
 		<a href="ukedo">
-			<img src="images/ukedo_thumb.png" alt="請度小学校物語を辿る">
-			<div class="caption">請度小学校物語を辿る</div>
+			<img src="images/ukedo_thumb.png" alt="請戸小学校物語を辿る">
+			<div class="caption">請戸小学校物語を辿る</div>
 		</a>
 	</div>
 </div>
