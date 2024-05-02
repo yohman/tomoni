@@ -33,4 +33,10 @@ title: Project Gallery
 			<div class="caption">請度小学校物語を辿る</div>
 		</a>
 	</div>
+	<div class="gallery-item">
+		<a href="odaka">
+			<img src="images/mao_thumb.png" alt="小高を訪れて">
+			<div class="caption">小高を訪れて</div>
+		</a>
+	</div>
 </div>
